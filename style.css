@@ -1,0 +1,50 @@
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    background-color: rgba(255,255,255,0.4);
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button{
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.task{
+    flex: 1;
+}
+
+.delete-button{
+    color: black;
+    cursor: pointer;
+}
